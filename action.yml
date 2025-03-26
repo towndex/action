@@ -1,0 +1,17 @@
+author: Minor Gordon
+branding:
+  icon: loader
+description: Generate a static site using Towndex.
+inputs:
+  data_paths:
+    description: colon-separated paths to one or more data files or directories containing data files
+    required: false
+  site_directory_path:
+    default: _site
+    description: Path to a directory where the generated static assets (CSS, HTML,
+      JavaScript) should be placed
+    required: false
+name: Generate a static site using Towndex.
+runs:
+  image: Dockerfile
+  using: docker
