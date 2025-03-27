@@ -7,4 +7,4 @@ echo "Site directory path: ${INPUT_SITE_DIRECTORY_PATH}"
 
 cd /sdapps/apps/towndex-gui
 npm run build
-cp -p -R .next/server/app $SITE_DIRECTORY_PATH
+cp -p -R out/ $SITE_DIRECTORY_PATH
