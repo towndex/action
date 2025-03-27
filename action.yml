@@ -14,6 +14,9 @@ inputs:
     description: Path to a directory where the generated static assets (CSS, HTML,
       JavaScript) should be placed
     required: false
+  site_title:
+    description: Site title
+    required: false
 name: Generate a static site using Towndex.
 runs:
   image: Dockerfile
