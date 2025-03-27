@@ -6,6 +6,9 @@ inputs:
   data_paths:
     description: colon-separated paths to one or more data files or directories containing data files
     required: false
+  next_base_path:
+    description: Next.js base (URL) path
+    required: false
   site_directory_path:
     default: _site
     description: Path to a directory where the generated static assets (CSS, HTML,
